@@ -1,19 +1,36 @@
-# trial-flask
+# app-starters-flask
 
-Trial or micro-service unit of Python [flask framework](https://flask.palletsprojects.com/).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# Start Up
+Python app starter with [Flask](https://flask.palletsprojects.com/): two routes and a dev server, small enough to read in a minute.
 
-```shell
-# Prepare Python Environment
+## Run
+
+```bash
 python3 -m venv venv
 . venv/bin/activate
-
-# Install flask
 pip install Flask
-
-# Run app.py
-# If gateway file is not app.py, export file name (w/ file extension) to FLASK_APP, for example:
-# export FLASK_APP=main
 flask run
 ```
+
+`app.py` is the entry point. If you rename it, export the module name first — `export FLASK_APP=main`.
+
+## What it gives you
+
+- `/` → `Index Page`
+- `/hello` → `Hello, World`
+
+Two routes, not a framework tour. Replace them; that is the point of a starter.
+
+There is no `requirements.txt` on purpose — the only dependency is Flask, and a lockfile you did not generate
+is worse than one command you typed.
+
+## Use this template
+
+*Use this template* gives you a repository you own, with no history and no link back here — the right shape for
+the first commit of a real app. Clone it instead when you want to follow changes to the starter itself;
+a repository created from the template never receives them.
+
+## License
+
+MIT — see [LICENSE](./LICENSE). Take what is useful.
