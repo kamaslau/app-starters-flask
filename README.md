@@ -1,6 +1,7 @@
 # app-starters-flask
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Repository size](https://img.shields.io/github/repo-size/kamaslau/app-starters-flask?color=56BEB8)
 
 Python app starter with [Flask](https://flask.palletsprojects.com/): two routes and a dev server, small enough to read in a minute.
 
